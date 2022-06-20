@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+.wrapper__titles {
+  width: 1200px;
+  padding-top: 50px;
+}
+.prising__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.seporator__title img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.prising__subtitle {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+}
+ul {
+  list-style: none;
+  width: 370px;
+  justify-content: space-between;
+  padding-inline-start: 0%;
+  margin-inline: 10px;
+  font-size: 0;
+}
+
+.cart__prise__title {
+  background-color: #333333;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+  text-align: center;
+}
+.cart__prise__prise {
+  background-color: #333333;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: center;
+}
+.cart__prise__subtitle__black {
+  background-color: #333333;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+li {
+  background-color: #ffffff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+  padding: 1em;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.wrapper__priselists {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+ul:hover {
+  box-shadow: 0 14px 28px #86878b, 0 10px 10px;
+  vertical-align: 20px;
+
+  transform-origin: center bottom;
+  transform: scale(1.09);
+}
+a {
+  text-decoration: none;
+}
